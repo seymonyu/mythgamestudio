@@ -1,0 +1,31 @@
+@import './../../styles.scss';
+
+.home-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.home-text{
+    font-size: 18pt;
+}
+
+a.home-link{ font-size: 20pt;
+    text-decoration: none;
+    color: #FA5C66;
+}
+a.home-link:hover{
+    color: $green ;
+    transition: all .5s ease-in-out;
+}
+
+span{
+    padding-left:10px; 
+    padding-right:10px; 
+}
