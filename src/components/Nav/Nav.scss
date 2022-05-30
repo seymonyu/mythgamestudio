@@ -1,0 +1,56 @@
+@import "./../../styles.scss";
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  list-style-type: none;
+  margin-right: 10%;
+  margin-top: 2%;
+  float: right;
+  vertical-align: text-bottom;
+}
+.nav-div {
+  margin-top: 1%;
+  width: 100%;
+  height: 200px;
+  text-align: initial;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  vertical-align: bottom;
+  align-items: flex-end;
+}
+
+.nav-logo {
+  padding: 0%;
+  position: absolute;
+  vertical-align: top;
+  margin-top: 10px;
+  display: flex;
+}
+
+.nav-logo-img {
+  position: absolute;
+  left: 30px;
+  vertical-align: top;
+  margin-top: 0px;
+}
+
+.nav-link {
+  color: $blue;
+  text-decoration: none;
+  font-size: $display-size;
+  font-family: $display;
+  padding: 5%;
+}
+
+.nav-link:visited {
+  color: $blue;
+}
+.nav-link:hover,
+.nav-link:active {
+  transition: all 0.5s ease-in-out;
+  color: $green;
+}

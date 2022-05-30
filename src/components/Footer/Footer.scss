@@ -1,0 +1,24 @@
+@import './../../styles.scss';
+
+
+.footer-div{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;    
+}
+.footer-email{
+  font-style: $primary;
+  font-size: $primary-size;
+  text-decoration: none;
+  color: #FA5C66;
+}
+
+.footer-email:visited{
+  color: inherit;
+}
+
+.footer-email:hover {
+    transition: all .5s ease-in-out;
+    color:#B0E077;
+  }
