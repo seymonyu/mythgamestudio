@@ -71,7 +71,11 @@
 
 
   @media (max-width:629px) {
-    img.footer-logo-img {
+    .footer-div-item{
+      width: 100%;
+
+    }
+    #footer-div-logo {
       display: none;
     }
   }

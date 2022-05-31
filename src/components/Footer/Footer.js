@@ -36,7 +36,7 @@ export default function Footer() {
             
           </ul>
         </div>
-        <div className="footer-div-item">
+        <div id="footer-div-logo" className="footer-div-item">
           <img
             className="footer-logo-img"
             src={logo_blue}
