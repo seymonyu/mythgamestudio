@@ -1,5 +1,5 @@
 import "./Footer.scss";
-import logo_blue from "../../images/logo_blue.svg";
+import logo_blue from "../../icons/logo_blue.svg";
 
 
 export default function Footer() {
@@ -7,34 +7,13 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-div">
         <div className="footer-div-item">
-          <h2>STUDIO</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
+          
         </div>
         <div className="footer-div-item">
-          <h2>GAMES</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
+          
         </div>
         <div className="footer-div-item">
-          <h2>SUPPORT</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
+         
         </div>
         <div id="footer-div-logo" className="footer-div-item">
           <img

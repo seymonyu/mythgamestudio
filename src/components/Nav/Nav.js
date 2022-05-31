@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import './Nav.scss'
-import logo_blue from "../../images/logo_blue.svg";
+import logo_blue from "../../icons/logo_blue.svg";
 
 
 
