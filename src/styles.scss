@@ -15,8 +15,21 @@ $primary:'Open Sans', Sans-Serif;
 //font sizes
 $display-size:20pt;
 $primary-size:14pt;
+$mobile-size:10pt;
 
 
 div{
     font-family: $primary;
+    font-size: $primary-size ;
 }
+
+@media (max-width:629px) {
+    div {
+        font-size: $mobile-size ;
+
+    }
+    p {
+        font-size: $mobile-size ;
+
+    }
+  }

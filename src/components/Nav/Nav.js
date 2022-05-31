@@ -13,7 +13,7 @@ export default function Nav() {
             className="nav-logo-img"
             src={logo_blue}
             alt="Logo"
-            height={100}
+           
           />
         </div></Link>
         
@@ -21,6 +21,8 @@ export default function Nav() {
         <Link  className="nav-link" to="/games">GAMES</Link>
         <Link  className="nav-link" to="/about">ABOUT</Link>
         <Link  className="nav-link" to="/contact">CONTACT</Link>
+        <Link  className="nav-link" to="/blog">BLOG</Link>
+
       </nav>
     </div>
   );

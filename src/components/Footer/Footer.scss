@@ -2,7 +2,7 @@
 
 
 .footer-container{
-  position: absolute;
+  position: relative;
   left: 0;
   height: 20em;
   width: 100%;
@@ -44,10 +44,14 @@
 }
 .footer-logo-img{
   margin-top: 5%;
+  margin-right: 10%;
 }
+
+
 .footer-text{
-  position:fixed;
+  position: absolute;
   bottom: 0;
+  font-size: $primary;
 }
 .footer-email{
   font-style: $primary;
@@ -63,4 +67,11 @@
 .footer-email:hover {
     transition: all .5s ease-in-out;
     color:$green;
+  }
+
+
+  @media (max-width:629px) {
+    img.footer-logo-img {
+      display: none;
+    }
   }

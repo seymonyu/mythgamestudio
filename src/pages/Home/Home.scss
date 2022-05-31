@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:700px;
+    height:1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,3 +29,14 @@ span{
     padding-left:10px; 
     padding-right:10px; 
 }
+
+@media (max-width:629px) {
+    
+    .home-text {
+        font-size: $mobile-size ;
+
+    }
+    a.home-link{
+        font-size: $mobile-size ;
+    }
+  }

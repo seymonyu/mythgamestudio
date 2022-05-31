@@ -8,6 +8,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Games from "./pages/Games/Games";
 import Contact from "./pages/Contact/Contact";
+import Blog from "./pages/Blog/Blog";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 
@@ -23,6 +24,8 @@ root.render(
       <Route path="games" element={<Games />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="blog" element={<Blog />} />
+
     </Routes>
     <Footer/>
   </BrowserRouter>
