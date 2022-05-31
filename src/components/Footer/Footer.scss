@@ -15,13 +15,35 @@
   margin-left: 5%;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 95%;
+}
+.footer-div-item{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0;
+}
+.footer-div-list{
+  margin-left:0;
+  padding-left: 0.2em;
 }
 
+.footer-list-item{
+  list-style-type: none;
+  text-decoration: none;
+  margin-left:0;
+  padding-bottom: 1em;
+}
+.footer-list-link{
+  text-decoration: none;
+
+}
+.footer-list-link:visited{
+ color:inherit;
+}
 .footer-text{
   position:fixed;
   bottom: 0;
-  left: 40%;
 }
 .footer-email{
   font-style: $primary;
@@ -36,5 +58,5 @@
 
 .footer-email:hover {
     transition: all .5s ease-in-out;
-    color:#B0E077;
+    color:$green;
   }
