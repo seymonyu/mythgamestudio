@@ -3,6 +3,7 @@
 $red: #FA5C66;
 $blue:#00a4fa;
 $green:#B0E077;
+$white:#ffffff;
 
 
 // font styles
@@ -14,4 +15,6 @@ $display-size:20pt;
 $primary-size:14pt;
 
 
-
+div{
+    font-family: $primary;
+}

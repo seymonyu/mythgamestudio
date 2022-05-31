@@ -1,8 +1,8 @@
+import './Games.scss'
+
 export default function Games() {
     return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Games</h2>
-      </main>
+      <div className="games-container">GAMES</div>
     );
   }
   
