@@ -10,7 +10,6 @@ export default function Footer() {
           <li className="footer-social-link-item"> <a className="footer-social-link"><img className="footer-icon"/></a></li>
           <li className="footer-social-link-item"> <a className="footer-social-link"><img className="footer-icon"/></a></li>
           <li className="footer-social-link-item"> <a className="footer-social-link"><img className="footer-icon"/></a></li>
-
         </ul>
        
         <div className="footer-div-logo">
