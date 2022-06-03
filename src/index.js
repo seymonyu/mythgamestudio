@@ -17,6 +17,7 @@ const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
 root.render(
+  
   <BrowserRouter>
   <Nav/>
     <Routes>
@@ -25,7 +26,6 @@ root.render(
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="blog" element={<Blog />} />
-
     </Routes>
     <Footer/>
   </BrowserRouter>

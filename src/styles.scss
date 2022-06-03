@@ -1,26 +1,33 @@
 // color scheme
 
 $red: #FA5C66;
-$red-opacity: #FA5C6670;
+$yellow:#E0C879;
 $blue:#00a4fa;
-$green:#B0E077;
-$white:#ffffff;
+$violette:#5F506B;
+$white:#fdf9f9;
 $off-white:#fdf9f9;
 
 
 // font styles
-$display:'aware-bold';
-$primary:'Open Sans', Sans-Serif;
+$display:'Futura Hv BT';
+$primary:'ITCSouvenirW01-Demi';
 
 //font sizes
 $display-size:20pt;
 $primary-size:14pt;
 $mobile-size:10pt;
 
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+  }
 
 div{
     font-family: $primary;
     font-size: $primary-size ;
+    padding: 0;
+    margin: 0;
 }
 
 @media (max-width:629px) {

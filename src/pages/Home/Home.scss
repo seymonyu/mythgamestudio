@@ -1,6 +1,8 @@
 @import './../../styles.scss';
 
 .home-container{
+    padding: 0;
+    margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -9,7 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
+    background-color: $violette;
+    color: $white;
 }
 
 .home-text{
@@ -18,10 +21,10 @@
 
 a.home-link{ font-size: 20pt;
     text-decoration: none;
-    color: #FA5C66;
+    color: $yellow;
 }
 a.home-link:hover{
-    color: $green ;
+    color: $white ;
     transition: all .5s ease-in-out;
 }
 
