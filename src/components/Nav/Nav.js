@@ -3,13 +3,19 @@ import './Nav.scss'
 import logo_with_text from "../../icons/logo_with_text.svg";
 import React, { useLocation } from 'react';
 
-
+function usePageViews() {
+  let location = useLocation();
+  React.useEffect(() => {
+    ga.send(["pageview", location.pathname]);
+  }, [location]);
+}
 
 export default function Nav() {
-
+  usePageViews();
 
 
     return (
+      
     <div className="nav-container" >
         <Link className="home-link-logo"to="/"><div className="navbar-logo">
           
