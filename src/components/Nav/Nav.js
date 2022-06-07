@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import './Nav.scss'
 import logo_with_text_violette from "../../icons/logo_with_text_violette.svg";
-import React, {useEffect} from 'react';
+import React from 'react';
 
 
 
@@ -22,13 +22,14 @@ return (
           />
         </div></Link>
         
-      <nav className="nav-list">
-        <Link className= 'nav-link'  to="/games">GAMES</Link>
-        <Link  className="nav-link" to="/about">ABOUT</Link>
-        <Link  className="nav-link" to="/contact">CONTACT</Link>
-        <Link  className="nav-link" to="/blog">BLOG</Link>
+        <nav className="nav-list">
+        <Link className= 'nav-link'  to="/">GAMES</Link>
+        <Link  className="nav-link" to="/">ABOUT</Link>
+        <Link  className="nav-link" to="/">CONTACT</Link>
+        <Link  className="nav-link" to="/">BLOG</Link>
 
       </nav>
+
     </div>
   );
 }

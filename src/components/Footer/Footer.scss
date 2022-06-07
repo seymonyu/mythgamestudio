@@ -1,14 +1,16 @@
 @import "./../../styles.scss";
 
 .footer-container {
-  position: relative;
-  left: 0;
+  position: absolute;
+  bottom: 0;
   height: 7em;
   width: 100%;
   background-color: $violette;
 }
 .footer-div {
+  height: 5em;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   width: 100%;
   color: $white;
@@ -16,16 +18,21 @@
 }
 
 .footer-social-links {
+  width: 100%;
   font-family: $primary;
   margin-left: 0;
   padding-left: 0.2em;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-social-link-item {
   list-style-type: none;
   text-decoration: none;
   margin-left: 0;
-  padding-bottom: 0.5em;
+  padding: 30px;
+  padding-bottom: 1em;
 }
 .footer-social-link {
   text-decoration: none;
