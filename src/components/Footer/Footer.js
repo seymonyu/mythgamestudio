@@ -12,10 +12,10 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-div">
         <ul className="footer-social-links">
-        <li className="footer-social-link-item"> <a href="https://www.linkedin.com/company/myth-game-studio/about/" target="_blank" className="footer-social-link"><img className="footer-icon" src={linkedin_yellow} alt="Logo" height={50} /></a></li>
-          <li className="footer-social-link-item"> <a href="https://www.discord.com"  target="_blank" className="footer-social-link"><img className="footer-icon" src={discord_yellow} alt="Logo" height={50} /></a></li>
-          <li className="footer-social-link-item"> <a href="https://www.facebook.com" target="_blank" className="footer-social-link"><img className="footer-icon" src={facebook_yellow} alt="Logo" height={50} /></a></li>
-          <li className="footer-social-link-item"> <a href="https://www.twitter.com" target="_blank" className="footer-social-link"><img className="footer-icon" src={twitter_yellow} alt="Logo" height={50} /></a></li>
+        <li className="footer-social-link-item"> <a href="https://www.linkedin.com/company/myth-game-studio/about/" target="_blank" rel="noreferrer" className="footer-social-link"><img className="footer-icon" src={linkedin_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a href="https://www.discord.com"  target="_blank" className="footer-social-link" rel="noreferrer" ><img className="footer-icon" src={discord_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a href="https://www.facebook.com" target="_blank" className="footer-social-link" rel="noreferrer"><img className="footer-icon" src={facebook_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a href="https://www.twitter.com" target="_blank" className="footer-social-link" rel="noreferrer"><img className="footer-icon" src={twitter_yellow} alt="Logo" height={50} /></a></li>
         </ul>
        
         <div className="footer-div-logo">
