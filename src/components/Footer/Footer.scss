@@ -1,81 +1,82 @@
-@import './../../styles.scss';
+@import "./../../styles.scss";
 
-
-.footer-container{
-  position: relative;
-  left: 0;
-  height: 20em;
-  width: 100%;
-  background-color: $white;
-}
-.footer-div{
-  margin-left: 5%;
-  display: flex;
-  flex-direction: row;
-  width: 95%;
-  color: $red; 
-  font-size: $primary-size;
-}
-.footer-div-item{
-  font-family: $display;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin-left: 0;
-}
-.footer-div-list{
-  font-family: $primary;
-  margin-left:0;
-  padding-left: 0.2em;
-}
-
-.footer-list-item{
-  list-style-type: none;
-  text-decoration: none;
-  margin-left:0;
-  padding-bottom: 0.5em;
-}
-.footer-list-link{
-  text-decoration: none;
-
-}
-.footer-list-link:visited{
- color:inherit;
-}
-.footer-logo-img{
-  margin-top: 5%;
-  margin-right: 10%;
-}
-
-
-.footer-text{
+.footer-container {
   position: absolute;
   bottom: 0;
-  font-size: $primary;
+  height: 7em;
+  width: 100%;
+  background-color: $violette;
 }
-.footer-email{
+.footer-div {
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  color: $white;
+  font-size: $primary-size;
+}
+
+.footer-social-links {
+  width: 100%;
+  font-family: $primary;
+  margin-left: 0;
+  padding-left: 0.2em;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-link-item {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 0;
+  padding: 30px;
+  padding-bottom: 1em;
+}
+.footer-social-link {
+  text-decoration: none;
+}
+.footer-social-link:visited {
+  color: inherit;
+}
+.footer-div-logo {
+  position: absolute;
+  right: 20px;
+}
+.footer-logo-img {
+  margin-top: 5%;
+  width: 80px;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  font-size: $mobile-size;
+  color: $white;
+}
+.footer-email {
   font-style: $primary;
   font-size: $primary-size;
   text-decoration: none;
   color: $white;
 }
 
-.footer-email:visited{
+.footer-email:visited {
   color: inherit;
 }
 
 .footer-email:hover {
-    transition: all .5s ease-in-out;
-    color:$green;
+  transition: all 0.5s ease-in-out;
+  color: $white;
+}
+
+@media (max-width: 629px) {
+  .footer-div-item {
+    width: 100%;
   }
-
-
-  @media (max-width:629px) {
-    .footer-div-item{
-      width: 100%;
-
-    }
-    #footer-div-logo {
-      display: none;
-    }
+  #footer-div-logo {
+    display: none;
   }
+}

@@ -5,8 +5,11 @@
   width: 100%;
   height: 200px;
   text-align: initial;
-  position: fixed;
+  position: absolute;
   top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
   vertical-align: bottom;
   align-items: flex-end;
   background-color: $white;
@@ -41,7 +44,15 @@
 }
 
 .nav-link {
-  color: $blue;
+  color: $violette;
+  text-decoration: none;
+  font-size: $display-size;
+  font-family: $display;
+  padding: 5%;
+}
+
+.nav-link-dark{
+  color: $violette;
   text-decoration: none;
   font-size: $display-size;
   font-family: $display;
@@ -49,12 +60,20 @@
 }
 
 .nav-link:visited {
-  color: $blue;
+  color: $violette;
+}
+.nav-link-dark:visited {
+  color: $violette;
 }
 .nav-link:hover,
 .nav-link:active {
   transition: all 0.5s ease-in-out;
-  color: $green;
+  color: $pink;
+}
+.nav-link-dark:hover,
+.nav-link-dark:active {
+  transition: all 0.5s ease-in-out;
+  color: $pink;
 }
 @media (max-width:629px) {
   .nav-link {

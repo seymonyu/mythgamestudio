@@ -1,51 +1,28 @@
 import "./Footer.scss";
-import logo_blue from "../../images/logo_blue.svg";
+import logo_offwhite from "../../icons/logo_offwhite.png";
+import discord_yellow from "../../icons/social/discord_yellow.png"
+import facebook_yellow from "../../icons/social/facebook_yellow.png"
+import twitter_yellow from "../../icons/social/twitter_yellow.png"
+import linkedin_yellow from "../../icons/social/linkedin_yellow.png"
+
 
 
 export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-div">
-        <div className="footer-div-item">
-          <h2>STUDIO</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
-        </div>
-        <div className="footer-div-item">
-          <h2>GAMES</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
-        </div>
-        <div className="footer-div-item">
-          <h2>SUPPORT</h2>
-          <ul className="footer-div-list">
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-           <li className="footer-list-item"> <a className="footer-list-link" href="/about">Lorem</a></li>
-            
-          </ul>
-        </div>
-        <div id="footer-div-logo" className="footer-div-item">
-          <img
-            className="footer-logo-img"
-            src={logo_blue}
-            alt="Logo"
-            height={100}
-          />
+        <ul className="footer-social-links">
+        <li className="footer-social-link-item"> <a href="https://www.linkedin.com/company/myth-game-studio/about/" target="_blank" className="footer-social-link"><img className="footer-icon" src={linkedin_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a  target="_blank" className="footer-social-link"><img className="footer-icon" src={discord_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a  target="_blank" className="footer-social-link"><img className="footer-icon" src={facebook_yellow} alt="Logo" height={50} /></a></li>
+          <li className="footer-social-link-item"> <a  target="_blank" className="footer-social-link"><img className="footer-icon" src={twitter_yellow} alt="Logo" height={50} /></a></li>
+        </ul>
+       
+        <div className="footer-div-logo">
+          <img className="footer-logo-img" src={logo_offwhite} alt="Logo" />
         </div>
       </div>
-      <p className="footer-text">Copyright © Myth Game Studio</p>
+      <p className="footer-text">© 2022 Myth Game Studio All Rights Reserved</p>
     </div>
   );
 }
