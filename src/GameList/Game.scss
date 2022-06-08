@@ -1,18 +1,18 @@
 @import "../styles.scss";
 
-.project-main{
+.project-main {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height:500px ;
-  margin: 0;
+  height: 500px;
+  margin-left: 10%;
 }
 
 .game-icon {
-  width: 20%;
-  height: auto;
-
-  }
+  width: 25%;
+  height: 80px;
+  border-radius: 25%;
+  background-color: $violette;
+  padding: 5px;
+}
 
 .color-overlay {
   background: $violette;
@@ -55,14 +55,22 @@
     letter-spacing: 0.2em;
   }
 }
-.game-card-left{
+.game-card-left {
   padding-top: 100px;
   padding-left: 0;
-  width: 60%;
+  width: 50%;
 }
-.game-header{
+.game-header {
+  font-family: $display;
   display: flex;
   flex-direction: row;
+}
+.game-title {
+  margin: 5%;
+}
+.game-text{
+  padding-top: 10%;
+  font-size: 12pt;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
