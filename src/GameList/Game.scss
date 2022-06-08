@@ -1,15 +1,19 @@
 @import "../styles.scss";
 
-.project-img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+.project-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:500px ;
+  margin: 0;
 }
-.project-vid {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+
+.game-icon {
+  width: 20%;
+  height: auto;
+
+  }
+
 .color-overlay {
   background: $violette;
   width: 100%;
@@ -35,7 +39,6 @@
   width: 50%;
 }
 .project-link {
-  color: white;
   cursor: pointer;
   text-decoration: none;
   font-family: $primary;
@@ -51,6 +54,15 @@
     color: $yellow;
     letter-spacing: 0.2em;
   }
+}
+.game-card-left{
+  padding-top: 100px;
+  padding-left: 0;
+  width: 60%;
+}
+.game-header{
+  display: flex;
+  flex-direction: row;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

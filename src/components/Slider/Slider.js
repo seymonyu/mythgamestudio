@@ -15,10 +15,10 @@ function Slider() {
     from: { opacity: 0 },
   });
   const goLeft = () => {
-    x === 0 ? setX(-120 * (sliderArr.length - 1)) : setX(x + 120);
+    x === 0 ? setX(-110 * (sliderArr.length - 1)) : setX(x + 110);
   };
   const goRight = () => {
-    x === -120 * (sliderArr.length - 1) ? setX(0) : setX(x - 120);
+    x === -110 * (sliderArr.length - 1) ? setX(0) : setX(x - 110);
   };
   return (
     <animated.div style={props}>
