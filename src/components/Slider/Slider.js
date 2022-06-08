@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Game1 from "../../GameList/Game1";
 import { useSpring, animated } from "react-spring";
+import arrow_left from "../../icons/arrow_left.png"
+import arrow_right from "../../icons/arrow_right.png"
 import "./Slider.scss";
 
 function Slider() {
@@ -36,10 +38,19 @@ function Slider() {
         })}
 
         <button id="goLeft" onClick={goLeft}>
-          LEFT
+          
+          <img  
+                src={arrow_left}
+            
+                alt="Logo"
+                height={60}/>
         </button>
         <button id="goRight" onClick={goRight}>
-          RIGHT
+        <img  
+                src={arrow_right}
+            
+                alt="Logo"
+                height={60}/>
         </button>
       </div>
     </animated.div>

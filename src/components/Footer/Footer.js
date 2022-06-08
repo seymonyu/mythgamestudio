@@ -69,7 +69,7 @@ export default function Footer() {
                 onMouseOver={changeIconColorYellow}
                 onMouseLeave={changeIconColorWhite}
                 alt="Logo"
-                height={50}
+                height={60}
               />
             </a>
           </li>
@@ -88,7 +88,7 @@ export default function Footer() {
                 onMouseOver={changeIconColorYellow}
                 onMouseLeave={changeIconColorWhite}
                 alt="Logo"
-                height={50}
+                height={60}
               />
             </a>
           </li>
@@ -106,7 +106,7 @@ export default function Footer() {
                 onMouseOver={changeIconColorYellow}
                 onMouseLeave={changeIconColorWhite}
                 alt="Logo"
-                height={50}
+                height={60}
               />
             </a>
           </li>
@@ -124,7 +124,7 @@ export default function Footer() {
                 onMouseOver={changeIconColorYellow}
                 onMouseLeave={changeIconColorWhite}
                 alt="Logo"
-                height={50}
+                height={60}
               />
             </a>
           </li>
@@ -142,7 +142,7 @@ export default function Footer() {
                 onMouseOver={changeIconColorYellow}
                 onMouseLeave={changeIconColorWhite}
                 alt="Logo"
-                height={50}
+                height={60}
               />
             </a>
           </li>

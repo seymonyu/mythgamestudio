@@ -57,20 +57,28 @@
 }
 .game-card-left {
   padding-top: 100px;
-  padding-left: 0;
-  width: 50%;
+  padding-left: 15px;
+  width: 60%;
+}
+.game-card-right{
+  padding-top: 100px;
+  padding-right: 10%;
+  width: 40%;
+  margin-left: 15%;
 }
 .game-header {
   font-family: $display;
   display: flex;
   flex-direction: row;
+  color: $violette;
 }
 .game-title {
   margin: 5%;
 }
 .game-text{
-  padding-top: 10%;
+  padding-top: 5%;
   font-size: 12pt;
+  color:$violette;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
