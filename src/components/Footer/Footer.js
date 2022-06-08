@@ -76,7 +76,7 @@ export default function Footer() {
           <li className="footer-social-link-item">
             {" "}
             <a
-              href="https://www.youtube.com"
+              href="https://www.youtube.com/watch?v=OGUjEUhRtVU"
               target="_blank"
               className="footer-social-link"
               rel="noreferrer"
