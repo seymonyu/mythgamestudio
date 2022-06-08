@@ -15,6 +15,7 @@
   width: 100%;
   color: $white;
   font-size: $primary-size;
+
 }
 
 .footer-social-links {
@@ -72,11 +73,16 @@
   color: $white;
 }
 
-@media (max-width: 629px) {
-  .footer-div-item {
-    width: 100%;
+@media (max-width:629px) {
+  
+.footer-social-link-item {
+  padding: 5px;
+}
+  .footer-icon{
+    height: 30px;
   }
-  #footer-div-logo {
-    display: none;
-  }
+.footer-logo-img {
+  margin-top: 5%;
+  width: 50px;
+}
 }
