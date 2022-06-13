@@ -4,7 +4,7 @@ import game_icon from "../icons/game_icons/assembly_point.png"
 import assembly_point_iphone from "../images/assembly_point_iphone.png"
 
 
-function Game1() {
+function Game3() {
   return (
     <div className="project-main">
        <div className="game-card-left"> <div className="game-header"><img className="game-icon"
@@ -26,4 +26,4 @@ function Game1() {
   );
 }
 
-export default Game1;
+export default Game3;

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Game1 from "../../GameList/Game1";
+import Game2 from "../../GameList/Game2";
+import Game3 from "../../GameList/Game3";
 import { useSpring, animated } from "react-spring";
 import arrow_left from "../../icons/arrow_left.png"
 import arrow_right from "../../icons/arrow_right.png"
@@ -8,7 +10,8 @@ import "./Slider.scss";
 function Slider() {
   let sliderArr = [
     <Game1 />,
-    <Game1/>
+    <Game2/>,
+    <Game3/>
   ];
   const [x, setX] = useState(0);
   const props = useSpring({

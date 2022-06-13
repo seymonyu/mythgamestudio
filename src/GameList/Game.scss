@@ -8,10 +8,8 @@
 
 .game-icon {
   width: 25%;
-  height: 80px;
+  height: auto;
   border-radius: 25%;
-  background-color: $violette;
-  padding: 5px;
 }
 
 .color-overlay {
@@ -58,13 +56,12 @@
 .game-card-left {
   padding-top: 100px;
   padding-left: 15px;
-  width: 60%;
+  width: 80%;
 }
 .game-card-right{
   padding-top: 100px;
-  padding-right: 10%;
-  width: 40%;
-  margin-left: 15%;
+  padding-right: 3%;
+
 }
 .game-header {
   font-family: $display;
