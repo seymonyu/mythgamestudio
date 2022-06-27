@@ -3,7 +3,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Redirect
+  Navigate
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -28,7 +28,7 @@ root.render(
       <Route path="contact" element={Contact} />
       <Route path="blog" element={Blog} />
 
-      <Redirect from="*" to="/" />
+      <Route path="/*" element={<Navigate replace to="/" />} />
     </Routes>
     <Footer/>
   </BrowserRouter>
