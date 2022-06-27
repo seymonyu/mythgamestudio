@@ -24,9 +24,9 @@ return (
         
         <nav className="nav-list">
         <Link className= 'nav-link'  to="/">GAMES</Link>
-        <Link  className="nav-link" to="/">ABOUT</Link>
-        <Link  className="nav-link" to="/">CONTACT</Link>
-        <Link  className="nav-link" to="/">BLOG</Link>
+        <Link  className="nav-link" to="/about">ABOUT</Link>
+        <Link  className="nav-link" to="/contact">CONTACT</Link>
+        <Link  className="nav-link" to="/blog">BLOG</Link>
 
       </nav>
 
