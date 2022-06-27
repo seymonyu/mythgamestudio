@@ -26,6 +26,8 @@ root.render(
       <Route path="about" element={About} />
       <Route path="contact" element={Contact} />
       <Route path="blog" element={Blog} />
+
+      <Redirect from="*" to="/" />
     </Routes>
     <Footer/>
   </BrowserRouter>
