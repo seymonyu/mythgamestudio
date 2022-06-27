@@ -1,2 +1,2 @@
-facebook.com, com.mythgamestudio.wagonwars, RESELLER, c3e20eee3f780d68
-facebook.com, com.MythGameStudio.Tontons, RESELLER, c3e20eee3f780d68
+facebook.com, 684593495917752, RESELLER, c3e20eee3f780d68
+facebook.com, 2638850359580412, RESELLER, c3e20eee3f780d68
