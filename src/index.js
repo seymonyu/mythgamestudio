@@ -21,11 +21,11 @@ root.render(
   <BrowserRouter>
   <Nav/>
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="games" element={<Games />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="blog" element={<Blog />} />
+      <Route exact path="/" element={Home} />
+      <Route path="games" element={Games} />
+      <Route path="about" element={About} />
+      <Route path="contact" element={Contact} />
+      <Route path="blog" element={Blog} />
     </Routes>
     <Footer/>
   </BrowserRouter>
