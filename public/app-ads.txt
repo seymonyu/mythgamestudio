@@ -1,1 +1,2 @@
-facebook.com, APP ID, RESELLER, c3e20eee3f780d68
+facebook.com, com.mythgamestudio.wagonwars, RESELLER, c3e20eee3f780d68
+facebook.com, com.MythGameStudio.Tontons, DIRECT, c3e20eee3f780d68
